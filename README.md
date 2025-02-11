@@ -52,8 +52,9 @@ This project is a web application that uses machine learning to classify disaste
 
 ## Installation
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Shady-Nayel/Disaster-Response-Prediction-Model-PJ-Nano-Degree-
+  
+   [https://github.com/Shady-Nayel/Disaster-Response-Prediction-Model-PJ-Nano-Degree-](https://github.com/Shady-Nayel/Disaster-Response-Prediction-Model-PJ-Nano-Degree-)
+   
 Install Dependencies:
 Ensure you have Python 3.10.9 installed. Then, install the required libraries:
 
