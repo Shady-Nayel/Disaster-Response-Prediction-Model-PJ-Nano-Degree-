@@ -22,24 +22,33 @@ This project is a web application that uses machine learning to classify disaste
 3. **Flask App**: The results will be presented through a Flask web application. The app will feature a text box where users can input emergency messages and view the corresponding classification categories.
 
 ## Directory Structure
-Workspace/
-├── data/
-│ ├── disaster_categories.csv # Dataset containing message categories
-│ ├── disaster_messages.csv # Dataset containing disaster messages
-│ └── DisasterResponse.db # SQLite database for cleaned data
-│
-├── models/
-│ ├── model.pkl # Trained machine learning model
-│ └── train_classifier.py # Script to train and save the model
-│
-├── app/
-│ ├── templates/ # HTML templates for the web app
-│ │ ├── go.html # Template for classification results
-│ │ └── master.html # Main template for the web app
-│ ├── run.py # Flask app script
-│ └── process_data.py # Script to clean and save data
-│
-└── README.md # Project documentation
+├── app
+
+│   ── template
+
+│   ├── master.html  # main page of web app
+
+│   ├── go.html  # classification result page of web app
+
+│   ── run.py  # Flask file that runs app
+
+├── data
+
+│   ── disaster_categories.csv  # data to process
+
+│   ── disaster_messages.csv  # data to process
+
+│   ── process_data.py # ETL code
+
+│   ── DisasterResponse.db   # database to save clean data to
+
+├── models
+
+│   ── train_classifier.py # ML model training
+
+│   ── model.pkl  # saved model 
+
+└── README.md
 
 Copy
 
@@ -139,16 +148,9 @@ master.html:
 
 The main template for the web app, including visualizations and input form.
 
-Technologies
+##Technologies
 Python 3.10.9
 
-Flask
-
-SQLite
-
-Scikit-learn
-
-NLTK
 
 Pandas
 
