@@ -50,30 +50,12 @@ This project is a web application that uses machine learning to classify disaste
 
 └── README.md
 
-Copy
-
 ## Installation
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Shady-Nayel/Disaster-Response-Prediction-Model-PJ-Nano-Degree-
 Install Dependencies:
 Ensure you have Python 3.10.9 installed. Then, install the required libraries:
-
-bash
-Copy
-pip install -r requirements.txt
-Download NLTK Data:
-Download necessary NLTK datasets:
-
-python
-Copy
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
-Running the Project
-Step 1: Process the Data
-Run the process_data.py script to clean and prepare the data:
 
 bash
 Copy
@@ -148,11 +130,5 @@ master.html:
 
 The main template for the web app, including visualizations and input form.
 
-##Technologies
+## Technologies
 Python 3.10.9
-
-
-Pandas
-
-NumPy
-
